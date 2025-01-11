@@ -1,0 +1,13 @@
+body{
+    background-image:url("https://w7.pngwing.com/pngs/551/193/png-transparent-cool-sports-cool-sports-creative-free-download-png-thumbnail.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-attachment: fixed;
+}
+#main{
+    width:50%;
+    border:2px solid purple;
+    height:80%;
+    background-color:white;
+    text-align:center;
+}

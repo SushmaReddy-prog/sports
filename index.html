@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sports entries</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+    </head>
+    <body>
+        <div id="main">
+        <h3>SPORTS PLAYER ENTRIES</h3>
+           <form>
+            <div>
+            <label for="name">Name:</label>
+            <br> 
+            <input id="name" type="text" name="name" required>
+            </div>
+            <div>
+            <label for="ph">Phone Number:</label>
+            <br>
+            <input id="ph" type="tel" name="phone" required>
+            </div>
+            <div>
+            <label for="mail">Email:</label>
+            <br>
+            <input id="mail" type="email" name="email" required>
+            </div>
+            <div>
+            <label for="gender">Gender:</label>
+            <br>
+           <select id="gender" name="gender">
+            <option value="male">MALE</option>
+            <option value="female">FeMale</option>
+            <option value="other">Other</option>
+           </select>
+            </div>
+            <div>
+            <label for="sport">Interested Sports:</label>
+            <br>
+            <textarea id="sport" name="sport" rows="2" cols="30"required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="SUBMIT">
+            </div>
+           </form>
+        </div>
+    </body>
+</html>
